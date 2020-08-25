@@ -56,6 +56,12 @@ namespace Example_005
 
     class Program
     {
+
+        public void Changes()
+        {
+            Console.WriteLine("Я внёс изменения в свой проетк");
+        }
+
         public static string Word(string text)
         {
             char[] ChText = new char[text.Length];
